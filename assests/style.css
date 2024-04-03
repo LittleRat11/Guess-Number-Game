@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: #222831; */
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 550px;
+    background-color: #00FFf5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 10px;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    height: auto;
+}
+
+.img-contaienr {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.design-img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.guessNum {
+    padding: 8px 10px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+.guessNum:focus {
+    outline: none;
+}
+
+.guessNum[type=text] {
+    font-size: 15px;
+}
+
+.guess-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #222831;
+    color: #00FFf5;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.guess-btn:hover {
+    background-color: #000000;
+    color: #FF0000;
+}
+
+.message-gp {
+    margin: 10px;
+    font-size: 25px;
+}
+
+.msg1,
+.msg2 {
+    margin-bottom: 8px;
+}
+
+h1 {
+    margin: 8px;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
